@@ -8,16 +8,19 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Please add to your home screen and it will work like a native app!
+          <p class="App-text">
+            Please add to your home screen and it will work like a native mobile app or a desktop app!
+          </p>
+          <p class="App-text">
+            Fast, Reliable, and Engaging!
           </p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://developers.google.com/web/progressive-web-apps/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            what is PWA?
+            What is PWA?
           </a>
         </header>
       </div>
